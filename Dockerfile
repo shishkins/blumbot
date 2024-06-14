@@ -12,7 +12,7 @@ ENV PIP_DEFAULT_TIMEOUT=100
 RUN apt-get update
 
 RUN mkdir -p /codebase
-ADD ../pixelbot /codebase
+ADD ../blumbot /codebase
 WORKDIR /codebase
 
 RUN pip3 install -r requirements.txt
